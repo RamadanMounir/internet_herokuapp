@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Apr 23 17:46:47 EET 2022","Sat Apr 23 17:46:50 EET 2022","2402","Default Suite","herokuapp","Tests.registerationTest","Tests.registerationTest","successfulRegisteration","successfulRegisteration",""
+"broken","Wed Apr 20 19:12:44 EET 2022","Wed Apr 20 19:12:44 EET 2022","4","Default Suite","herokuapp","Tests.registerationTest","Tests.registerationTest","startDriver","startDriver",""

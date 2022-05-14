@@ -1,0 +1,543 @@
+{
+  "uid" : "d8fed31aacb36ac2",
+  "name" : "successfulRegisteration",
+  "fullName" : "Tests.registerationTest.successfulRegisteration",
+  "historyId" : "d20ca4a0653de50c34fad4d6572988c9",
+  "time" : {
+    "start" : 1650728807720,
+    "stop" : 1650728810122,
+    "duration" : 2402
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 48,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "startDriver",
+    "time" : {
+      "start" : 1650728794986,
+      "stop" : 1650728807611,
+      "duration" : 12625
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "screenshotOnFailure",
+    "time" : {
+      "start" : 1650728810244,
+      "stop" : 1650728810244,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "stopDriver",
+    "time" : {
+      "start" : 1650728810266,
+      "stop" : 1650728810620,
+      "duration" : 354
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests.registerationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.registerationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "successfulRegisteration"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "herokuapp"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests.registerationTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-E6TB5HPA"
+  }, {
+    "name" : "thread",
+    "value" : "15380@LAPTOP-E6TB5HPA.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "64a243964b9fe4f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650477059670,
+        "stop" : 1650477061731,
+        "duration" : 2061
+      }
+    }, {
+      "uid" : "a3a52b16a626abd9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650476165852,
+        "stop" : 1650476167803,
+        "duration" : 1951
+      }
+    }, {
+      "uid" : "399b09c616a3300b",
+      "status" : "broken",
+      "statusDetails" : "no such alert\n  (Session info: chrome=100.0.4896.127)\nBuild info: version: '4.1.3', revision: '7b1ebf28ef'\nSystem info: host: 'LAPTOP-E6TB5HPA', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [7264c3587193cfb13452b5b67c69f58b, getAlertText {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\romio\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:8370}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:8370/devtool..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7264c3587193cfb13452b5b67c69f58b",
+      "time" : {
+        "start" : 1650476082289,
+        "stop" : 1650476083751,
+        "duration" : 1462
+      }
+    }, {
+      "uid" : "a6e7cc83b7cc40bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650475616695,
+        "stop" : 1650475618645,
+        "duration" : 1950
+      }
+    }, {
+      "uid" : "5b8aa6aec6f39c36",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\" Logout\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.3', revision: '7b1ebf28ef'\nSystem info: host: 'LAPTOP-E6TB5HPA', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [cc5e2484a400c328e5b290e928319411, findElement {using=link text, value= Logout}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\romio\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:7074}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:7074/devtool..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: cc5e2484a400c328e5b290e928319411",
+      "time" : {
+        "start" : 1650474978848,
+        "stop" : 1650474990638,
+        "duration" : 11790
+      }
+    }, {
+      "uid" : "f4963ff198af1477",
+      "status" : "broken",
+      "statusDetails" : "Unable to find element with locator By.linkText: Form Authentication\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.3', revision: '7b1ebf28ef'\nSystem info: host: 'LAPTOP-E6TB5HPA', ip: '172.19.32.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1650474800463,
+        "stop" : 1650474805389,
+        "duration" : 4926
+      }
+    }, {
+      "uid" : "cfe98ec15b2fa7a9",
+      "status" : "skipped",
+      "statusDetails" : "timeout: Timed out receiving message from renderer: -0.007\n  (Session info: chrome=100.0.4896.127)\nBuild info: version: '4.1.3', revision: '7b1ebf28ef'\nSystem info: host: 'LAPTOP-E6TB5HPA', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1b7d1d0bd5ac722eb9718fbc34a88f98, get {url=https://the-internet.herokuapp.com/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\romio\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:1387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:1387/devtool..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1b7d1d0bd5ac722eb9718fbc34a88f98",
+      "time" : {
+        "start" : 1650474765142,
+        "stop" : 1650474765144,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "720d0dc05c4ab027",
+      "status" : "broken",
+      "statusDetails" : "Unable to find element with locator By.linkText: Form Authentication\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.3', revision: '7b1ebf28ef'\nSystem info: host: 'LAPTOP-E6TB5HPA', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1650474739691,
+        "stop" : 1650474742682,
+        "duration" : 2991
+      }
+    }, {
+      "uid" : "647c0184689ea605",
+      "status" : "skipped",
+      "statusDetails" : "timeout: Timed out receiving message from renderer: -0.005\n  (Session info: chrome=100.0.4896.127)\nBuild info: version: '4.1.3', revision: '7b1ebf28ef'\nSystem info: host: 'LAPTOP-E6TB5HPA', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0b4a409ce038015a45fe1687b205ecd0, get {url=https://the-internet.herokuapp.com/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\romio\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:10238}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:10238/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0b4a409ce038015a45fe1687b205ecd0",
+      "time" : {
+        "start" : 1650474584026,
+        "stop" : 1650474584028,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "d4e7a4589ee256fe",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"Pages.BasePage.driver\" is null",
+      "time" : {
+        "start" : 1650474153473,
+        "stop" : 1650474153482,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "9095e42518e43a13",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"Pages.BasePage.driver\" is null",
+      "time" : {
+        "start" : 1650471836030,
+        "stop" : 1650471836040,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "cfc107f162d8853b",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"Pages.BasePage.driver\" is null",
+      "time" : {
+        "start" : 1650471589104,
+        "stop" : 1650471590877,
+        "duration" : 1773
+      }
+    }, {
+      "uid" : "ab24708d85808030",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"Pages.BasePage.driver\" is null",
+      "time" : {
+        "start" : 1650471514251,
+        "stop" : 1650471515943,
+        "duration" : 1692
+      }
+    }, {
+      "uid" : "6075e7c0616541a3",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"this.driver\" is null",
+      "time" : {
+        "start" : 1650471438452,
+        "stop" : 1650471440172,
+        "duration" : 1720
+      }
+    }, {
+      "uid" : "9b2a473cae50e227",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"this.driver\" is null",
+      "time" : {
+        "start" : 1650471276300,
+        "stop" : 1650471278003,
+        "duration" : 1703
+      }
+    }, {
+      "uid" : "eb8020eed7762f60",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"this.driver\" is null",
+      "time" : {
+        "start" : 1650471109091,
+        "stop" : 1650471110958,
+        "duration" : 1867
+      }
+    }, {
+      "uid" : "97dcdc1798fc4698",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"this.driver\" is null",
+      "time" : {
+        "start" : 1650470464087,
+        "stop" : 1650470465853,
+        "duration" : 1766
+      }
+    }, {
+      "uid" : "d7c80105148153c7",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"this.driver\" is null",
+      "time" : {
+        "start" : 1650470403493,
+        "stop" : 1650470405292,
+        "duration" : 1799
+      }
+    }, {
+      "uid" : "c41a7b58c5146767",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.switchTo()\" because \"this.driver\" is null",
+      "time" : {
+        "start" : 1650469783968,
+        "stop" : 1650469786332,
+        "duration" : 2364
+      }
+    }, {
+      "uid" : "90b09251944d16c8",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.switchTo()\" because \"this.driver\" is null",
+      "time" : {
+        "start" : 1650414109920,
+        "stop" : 1650414111821,
+        "duration" : 1901
+      }
+    }, {
+      "uid" : "2a0a7cef060c2454",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"this.driver\" is null",
+      "time" : {
+        "start" : 1650413892551,
+        "stop" : 1650413894503,
+        "duration" : 1952
+      }
+    }, {
+      "uid" : "7804529fce5b7f9c",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"this.driver\" is null",
+      "time" : {
+        "start" : 1650413849401,
+        "stop" : 1650413850916,
+        "duration" : 1515
+      }
+    }, {
+      "uid" : "1e5edbaa2fd2b8de",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.switchTo()\" because \"this.driver\" is null",
+      "time" : {
+        "start" : 1650413562421,
+        "stop" : 1650413564815,
+        "duration" : 2394
+      }
+    }, {
+      "uid" : "338aa622c4e9dc1b",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"this.driver\" is null",
+      "time" : {
+        "start" : 1650413347601,
+        "stop" : 1650413349113,
+        "duration" : 1512
+      }
+    }, {
+      "uid" : "64df37004afd1abf",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"this.driver\" is null",
+      "time" : {
+        "start" : 1650413202604,
+        "stop" : 1650413204361,
+        "duration" : 1757
+      }
+    }, {
+      "uid" : "170f1a2800429d55",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"this.driver\" is null",
+      "time" : {
+        "start" : 1650413115486,
+        "stop" : 1650413117121,
+        "duration" : 1635
+      }
+    }, {
+      "uid" : "71d7b9952ace8044",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\" Login\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.3', revision: '7b1ebf28ef'\nSystem info: host: 'LAPTOP-E6TB5HPA', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [6f61365132530b3088002a3411aa20cb, findElement {using=link text, value= Login}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\romio\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:4623}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:4623/devtool..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6f61365132530b3088002a3411aa20cb",
+      "time" : {
+        "start" : 1650413022041,
+        "stop" : 1650413032989,
+        "duration" : 10948
+      }
+    }, {
+      "uid" : "54ea951d425cb",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Login\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.3', revision: '7b1ebf28ef'\nSystem info: host: 'LAPTOP-E6TB5HPA', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9b801fd170054d37fed7773f496c6dc4, findElement {using=link text, value=Login}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\romio\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:4531}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:4531/devtool..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9b801fd170054d37fed7773f496c6dc4",
+      "time" : {
+        "start" : 1650412962521,
+        "stop" : 1650412973512,
+        "duration" : 10991
+      }
+    }, {
+      "uid" : "d743d3ca4a2418b4",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button.radius\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.3', revision: '7b1ebf28ef'\nSystem info: host: 'LAPTOP-E6TB5HPA', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [217d7fb8fb9eab951f76e4cc965d731e, findElement {using=xpath, value=//button.radius}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\romio\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:6368}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:6368/devtool..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 217d7fb8fb9eab951f76e4cc965d731e",
+      "time" : {
+        "start" : 1650412859078,
+        "stop" : 1650412870102,
+        "duration" : 11024
+      }
+    }, {
+      "uid" : "f7cf6ac654afbb7d",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button.radius\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.3', revision: '7b1ebf28ef'\nSystem info: host: 'LAPTOP-E6TB5HPA', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e0fb8d77b7cc2a8394a6ac3ba2e8b2d3, findElement {using=xpath, value=//button.radius}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\romio\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:4297}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:4297/devtool..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e0fb8d77b7cc2a8394a6ac3ba2e8b2d3",
+      "time" : {
+        "start" : 1650412561955,
+        "stop" : 1650412573111,
+        "duration" : 11156
+      }
+    }, {
+      "uid" : "37235d5448bfd119",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button.radius\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.3', revision: '7b1ebf28ef'\nSystem info: host: 'LAPTOP-E6TB5HPA', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [75692ee2bf616aa15e583ed50c4117b7, findElement {using=xpath, value=//button.radius}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\romio\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:4204}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:4204/devtool..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 75692ee2bf616aa15e583ed50c4117b7",
+      "time" : {
+        "start" : 1650412493620,
+        "stop" : 1650412504603,
+        "duration" : 10983
+      }
+    }, {
+      "uid" : "b358636f810a8178",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button.radius\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.3', revision: '7b1ebf28ef'\nSystem info: host: 'LAPTOP-E6TB5HPA', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [aab94d8b753c546086f6e7afcb1555a8, findElement {using=xpath, value=//button.radius}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\romio\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:10118}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:10118/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: aab94d8b753c546086f6e7afcb1555a8",
+      "time" : {
+        "start" : 1650412378571,
+        "stop" : 1650412389499,
+        "duration" : 10928
+      }
+    }, {
+      "uid" : "c5d73104a43f9a85",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"Pages.HomePage.openAuthenticationForm()\" because \"this.homePage\" is null",
+      "time" : {
+        "start" : 1650412322844,
+        "stop" : 1650412322860,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "cc121749536e596f",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"Pages.BasePage.driver\" is null",
+      "time" : {
+        "start" : 1650412168975,
+        "stop" : 1650412174639,
+        "duration" : 5664
+      }
+    }, {
+      "uid" : "264c584131d1be61",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"Pages.BasePage.driver\" is null",
+      "time" : {
+        "start" : 1650411966538,
+        "stop" : 1650411972206,
+        "duration" : 5668
+      }
+    }, {
+      "uid" : "2178695bc88873cd",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"Pages.BasePage.driver\" is null",
+      "time" : {
+        "start" : 1650411202083,
+        "stop" : 1650411207708,
+        "duration" : 5625
+      }
+    }, {
+      "uid" : "a29c545d2022b493",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"Pages.BasePage.driver\" is null",
+      "time" : {
+        "start" : 1650410892106,
+        "stop" : 1650410897815,
+        "duration" : 5709
+      }
+    }, {
+      "uid" : "b6a378093ce6c3f9",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"Pages.BasePage.driver\" is null",
+      "time" : {
+        "start" : 1650410694651,
+        "stop" : 1650410700331,
+        "duration" : 5680
+      }
+    }, {
+      "uid" : "9caf6966084dbad2",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"Pages.BasePage.driver\" is null",
+      "time" : {
+        "start" : 1650410585766,
+        "stop" : 1650410586278,
+        "duration" : 512
+      }
+    }, {
+      "uid" : "a8ceb5ab51300eb9",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"Pages.BasePage.driver\" is null",
+      "time" : {
+        "start" : 1650410432994,
+        "stop" : 1650410433876,
+        "duration" : 882
+      }
+    }, {
+      "uid" : "1549fff5eb33bb93",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"Pages.BasePage.driver\" is null",
+      "time" : {
+        "start" : 1650410414263,
+        "stop" : 1650410414763,
+        "duration" : 500
+      }
+    }, {
+      "uid" : "5344040b1b393233",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"Pages.BasePage.driver\" is null",
+      "time" : {
+        "start" : 1650410335307,
+        "stop" : 1650410335896,
+        "duration" : 589
+      }
+    }, {
+      "uid" : "4e4baddbd8a22e50",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"Pages.BasePage.driver\" is null",
+      "time" : {
+        "start" : 1650410056707,
+        "stop" : 1650410057403,
+        "duration" : 696
+      }
+    }, {
+      "uid" : "8893d95d6b24e95b",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"Pages.BasePage.driver\" is null",
+      "time" : {
+        "start" : 1650410002234,
+        "stop" : 1650410002884,
+        "duration" : 650
+      }
+    }, {
+      "uid" : "6dbfa4bd7b57bac5",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"Pages.BasePage.driver\" is null",
+      "time" : {
+        "start" : 1650409884695,
+        "stop" : 1650409885241,
+        "duration" : 546
+      }
+    }, {
+      "uid" : "4a84698f97ce91",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"Pages.BasePage.driver\" is null",
+      "time" : {
+        "start" : 1650409523876,
+        "stop" : 1650409523884,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "1fec64bac893219e",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"Pages.BasePage.driver\" is null",
+      "time" : {
+        "start" : 1650409278666,
+        "stop" : 1650409279170,
+        "duration" : 504
+      }
+    }, {
+      "uid" : "22489a7469bb044",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"Pages.BasePage.driver\" is null",
+      "time" : {
+        "start" : 1650408964872,
+        "stop" : 1650408966044,
+        "duration" : 1172
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d8fed31aacb36ac2.json",
+  "parameterValues" : [ ]
+}

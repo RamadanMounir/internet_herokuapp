@@ -1,0 +1,41 @@
+{
+  "d20ca4a0653de50c34fad4d6572988c9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d8fed31aacb36ac2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650728807720,
+        "stop" : 1650728810122,
+        "duration" : 2402
+      }
+    } ]
+  },
+  "e4606b13485e18e2efc62e244dfbdaf9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "903848f038c0b0e0",
+      "status" : "broken",
+      "statusDetails" : "timeout: Timed out receiving message from renderer: -0.007\n  (Session info: chrome=100.0.4896.127)\nBuild info: version: '4.1.3', revision: '7b1ebf28ef'\nSystem info: host: 'LAPTOP-E6TB5HPA', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1b7d1d0bd5ac722eb9718fbc34a88f98, get {url=https://the-internet.herokuapp.com/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\romio\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:1387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:1387/devtool..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1b7d1d0bd5ac722eb9718fbc34a88f98",
+      "time" : {
+        "start" : 1650474764948,
+        "stop" : 1650474764952,
+        "duration" : 4
+      }
+    } ]
+  }
+}

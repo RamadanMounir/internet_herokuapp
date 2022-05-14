@@ -1,0 +1,21 @@
+[ {
+  "uid" : "903848f038c0b0e0",
+  "name" : "startDriver",
+  "time" : {
+    "start" : 1650474764948,
+    "stop" : 1650474764952,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d8fed31aacb36ac2",
+  "name" : "successfulRegisteration",
+  "time" : {
+    "start" : 1650728807720,
+    "stop" : 1650728810122,
+    "duration" : 2402
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
